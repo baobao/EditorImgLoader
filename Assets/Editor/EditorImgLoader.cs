@@ -13,8 +13,9 @@ public class EditorImgLoader : EditorWindow
         w.titleContent = new GUIContent("EditorImgLoader");
         w.Show();
     }
-
-    string m_imgURL = "https://upload.wikimedia.org/wikipedia/commons/8/8a/Official_unity_logo.png";
+    
+    // ダウンロードする画像パス
+    string m_imgURL = "";
     WWW w;
     Texture2D tex;
 
